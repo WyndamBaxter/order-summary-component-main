@@ -1,0 +1,40 @@
+.backcont{
+    display: flex;
+    width: 100%;
+
+}
+
+.vendbox{
+
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    width: 100%;
+    max-width: 400px;
+    height: 600px;
+    border-radius: 12px;
+    margin: 100px auto;
+}
+
+body{
+    background-color: gray;
+
+}
+
+.heroimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px 12px 0 0;
+    overflow: hidden;
+}
+.order{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    
+    
+}
