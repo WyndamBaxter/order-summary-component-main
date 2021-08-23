@@ -32,9 +32,19 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 16px;
+
     
-    
+}
+.merch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    text-decoration-color: grey;
+
 }
