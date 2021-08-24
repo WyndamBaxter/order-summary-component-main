@@ -9,15 +9,17 @@
     display: flex;
     flex-direction: column;
     background-color: whitesmoke;
-    width: 100%;
-    max-width: 400px;
-    height: 600px;
+    width: 22%;
+    min-width: 300px;
+    left: 400px;
     border-radius: 12px;
     margin: 100px auto;
+    box-shadow: 5px 5px 20px grey;
+
 }
 
 body{
-    background-color: gray;
+    background-color: #AED6F1;
 
 }
 
@@ -28,23 +30,71 @@ body{
     border-radius: 12px 12px 0 0;
     overflow: hidden;
 }
+
 .order{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 15px;
-    margin-bottom: 10px;
     font-family: 'Red Hat Display', sans-serif;
-    font-size: 16px;
-
-    
+    font-size: 16px;    
 }
+
 .merch{
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    text-decoration: grey;
+}
+
+.plan{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 16px;
     text-decoration-color: grey;
+    margin:0px 40px 0px;
+    min-width: 100px;
+    padding: 10px;
+    background-color: #EAEDED;
+    border-radius: 12px;
+}
+
+.plantext li{
+    list-style: none;
+    margin-left: -90px 
+}
+
+.change{
+    margin-left: 30px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    text-decoration: grey;    
+}
+
+.payment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #382AE1 ;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 14px;
+    text-decoration: white;  
+    margin: 30px 40px 0px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 20px grey;
+}
+
+.cancel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 14px;
+    text-decoration: grey;
+    margin: 40px;
 
 }
